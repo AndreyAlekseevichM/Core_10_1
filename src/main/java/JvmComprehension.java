@@ -1,6 +1,6 @@
 public class JvmComprehension { // класс JvmComprehension передается в Metaspace используя ClassLoader'ы.
 
-    public static void main(String[] args) { // в стэке создается фрейм main в стэке.
+    public static void main(String[] args) { // в стэке создается фрейм main.
         int i = 1;                      // 1 в фрейме main создается переменная i со значением 1.
         Object o = new Object();        // 2 в куче создается объект Object, а во фрейме main создается переменная Object o со ссылкой на Object в куче.
         Integer ii = 2;                 // 3 в куче создается переменная ii со значением 2.
